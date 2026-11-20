@@ -1,0 +1,16 @@
+2026-11-19 23:58:02,443 | INFO | Entidad creada correctamente. ID: 1
+2026-11-19 23:58:02,443 | INFO | Cliente registrado correctamente. ID: 1, Nombre: Gabriel Morales
+2026-11-19 23:58:02,445 | INFO | Entidad creada correctamente. ID: 2
+2026-11-19 23:58:02,445 | INFO | Entidad creada correctamente. ID: 3
+2026-11-19 23:58:02,445 | INFO | Entidad creada correctamente. ID: 4
+2026-11-19 23:58:02,445 | INFO | Datos del cliente actualizados correctamente. ID: 1
+2026-11-19 23:58:02,446 | ERROR | No fue posible actualizar los datos del cliente 1
+Traceback (most recent call last):
+  File "c:\Users\gamaf\OneDrive - Universidad Nacional Abierta y a Distancia\Documentos\GitHub\software-fj-fase4\cliente.py", line 195, in actualizar_datos
+    self._validar_correo(correo)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "c:\Users\gamaf\OneDrive - Universidad Nacional Abierta y a Distancia\Documentos\GitHub\software-fj-fase4\cliente.py", line 87, in _validar_correo
+    raise ErrorValidacion(
+        "El correo electrónico no tiene un formato válido."
+    )
+excepciones.ErrorValidacion: El correo electrónico no tiene un formato válido.
